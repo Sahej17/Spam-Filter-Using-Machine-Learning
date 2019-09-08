@@ -1,1 +1,1 @@
-# Spam-Filtering-Machine
+# Spam-Mail-Classifier
