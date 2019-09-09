@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split as tts
 from sklearn.metrics import accuracy_score
 import pickle as c
 
-
 def save(clf, name):
     with open(name, 'wb') as fp:
         c.dump(clf, fp)
