@@ -2,7 +2,6 @@ import pickle as c
 import os
 from collections import Counter
 
-
 def load(clf_file):
     with open(clf_file, 'rb') as fp:
         clf = c.load(fp)
