@@ -7,6 +7,7 @@ def load(clf_file):
         clf = c.load(fp)
     return clf
 
+
 def make_dict():
     direc = "emails/"
     files = os.listdir(direc)
