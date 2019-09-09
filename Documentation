@@ -10,7 +10,7 @@ Step 2 :- Prepare the dataset-
 
 Step 3 :- Training the model with the feature set
 -We have used the naives bayes approach for our machine learning model
-from sklearn library import multinomialNB
+from sklearn library import MultinomialNB
 -We will break our feature set into training and testing set by train and test split function
 -We will train our model on training set and then we will measure our accuracy
 -To measure the accuracy we will use accuracy_score function from sklearn.metrics
